@@ -34,26 +34,27 @@ function maxOfThree(num1,num2,num3){
 
 function isVowel(char){
   if (char === 'a') {
-    return true;
-    if (char === 'e') {
-      return true;
-      if (char === 'i') {
-        return true;
-        if (char === 'o') {
-          return true;
-          if (char === 'u') {
-            return true;
-          }
-        }
-      }
-    }
-  } else {
+    return true;}
+
+  if (char === 'e') {
+    return true;}
+
+  if (char === 'i') {
+    return true;}
+
+  if (char === 'o') {
+    return true;}
+
+  if (char === 'u') {
+    return true;}
+
+  else {
     return false;
   }
-    // Your answer here
 }
+    // Your answer here
 
-console.log(isVowel('f'));
+console.log(isVowel('p'));
 
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
@@ -81,8 +82,8 @@ console.log(avg(20,25,15));
 
 let name = "Miguel";
 
-function getLength(name) {
-  return getLength.length;
+function getLength() {
+  return name.length;
 }
 
 console.log(getLength());
@@ -129,7 +130,7 @@ function madlib(noun1,noun2,adj,adv) {
   return "I love " + noun1 + " so much, " + noun2 + " is okay, it's just " + noun1 + " is " + adj + " which is " + adv + " so I prefer it."
 }
 
-console.log(madlib("peanut butter", "jelly", "creamy", "better"));
+console.log(madlib("peanut butter", "jelly", "creamy", "better"))
 
 
 
